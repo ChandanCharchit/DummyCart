@@ -16,7 +16,6 @@ async def create_database_and_collection():
 
         database = client[db_name]
         collection = database[COLLECTION_PRODUCT]
-        print("Current Working Directory:", os.getcwd())
 
         json_file_path = '..\\utils\\dummy_products.json'
         with open(json_file_path, 'r') as file:
