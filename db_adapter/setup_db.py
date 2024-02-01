@@ -1,10 +1,8 @@
 import asyncio
-import motor.motor_asyncio
 import json
 import configparser
 from motor.motor_asyncio import AsyncIOMotorClient
 from utils.constants import COLLECTION_PRODUCT
-import os
 
 
 async def create_database_and_collection():
