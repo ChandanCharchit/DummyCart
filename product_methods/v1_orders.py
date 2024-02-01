@@ -41,8 +41,7 @@ class Order:
         except Exception as ex:
             raise HTTPException(status_code=500, detail=f"Error during creating new order due to: {str(ex)}")
 
-    @staticmethod
-    async def validate_and_get_product_details(items: List[OrderItem]):
+    async def validate_and_get_product_details(self, items: List[OrderItem]):
         try:
             # Product IDs from order items
             product_ids = [ObjectId(item.product_id) for item in items]
@@ -56,6 +55,7 @@ class Order:
             # Validating if all product IDs are found
             for item in items:
                 if str(item.product_id) not in product_details_dict:
+                    self.logger.info(f"Product id {item.product_id} not found in product list.")
                     raise HTTPException(status_code=400, detail=f"Product with ID {item.product_id} not found")
 
             return product_details_dict

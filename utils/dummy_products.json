@@ -1,0 +1,140 @@
+[{
+  "name": "TV",
+  "price": 50000,
+  "quantity": 10
+},
+{
+  "name": "Laptop",
+  "price": 100000,
+  "quantity": 5
+},
+{
+  "name": "Tablet",
+  "price": 40000,
+  "quantity": 8
+},
+{
+  "name": "Headphones",
+  "price": 5000,
+  "quantity": 20
+},
+{
+  "name": "Monitor",
+  "price": 30000,
+  "quantity": 12
+},
+{
+  "name": "Keyboard",
+  "price": 3000,
+  "quantity": 20
+},
+{
+  "name": "Mouse",
+  "price": 2000,
+  "quantity": 30
+},
+{
+  "name": "Printer",
+  "price": 15000,
+  "quantity": 7
+},
+{
+  "name": "Camera",
+  "price": 60000,
+  "quantity": 3
+},
+{
+  "name": "Speakers",
+  "price": 8000,
+  "quantity": 18
+},
+{
+  "name": "External Hard Drive",
+  "price": 12000,
+  "quantity": 10
+},
+{
+  "name": "Coffee Maker",
+  "price": 4000,
+  "quantity": 22
+},
+{
+  "name": "Blender",
+  "price": 6000,
+  "quantity": 15
+},
+{
+  "name": "Microwave",
+  "price": 8000,
+  "quantity": 8
+},
+{
+  "name": "Toaster",
+  "price": 2500,
+  "quantity": 25
+},
+{
+  "name": "Vacuum Cleaner",
+  "price": 10000,
+  "quantity": 6
+},
+{
+  "name": "Air Purifier",
+  "price": 15000,
+  "quantity": 4
+},
+{
+  "name": "Gaming Console",
+  "price": 40000,
+  "quantity": 5
+},
+{
+  "name": "Smart Watch",
+  "price": 12000,
+  "quantity": 7
+},
+{
+  "name": "Fitness Tracker",
+  "price": 8000,
+  "quantity": 10
+},
+{
+  "name": "Bluetooth Earbuds",
+  "price": 4000,
+  "quantity": 30
+},
+{
+  "name": "Drones",
+  "price": 30000,
+  "quantity": 5
+},
+{
+  "name": "Digital Camera",
+  "price": 25000,
+  "quantity": 8
+},
+{
+  "name": "E-book Reader",
+  "price": 9000,
+  "quantity": 10
+},
+{
+  "name": "Sunglasses",
+  "price": 1500,
+  "quantity": 35
+},
+{
+  "name": "Backpack",
+  "price": 2500,
+  "quantity": 25
+},
+{
+  "name": "Toothpaste",
+  "price": 200,
+  "quantity": 25
+},
+{
+  "name": "Dark Chocolate",
+  "price": 400,
+  "quantity": 15
+}]
